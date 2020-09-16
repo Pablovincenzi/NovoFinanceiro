@@ -1,5 +1,8 @@
 package controlefinanceiro;
 
-public class Contas {
+public class Contas  {
+	private int numero;
+	private Double saldo;
+	
 
 }

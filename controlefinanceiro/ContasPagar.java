@@ -1,5 +1,5 @@
 package controlefinanceiro;
 
-public class ContasPagar {
+public class ContasPagar extends Contas {
 
 }

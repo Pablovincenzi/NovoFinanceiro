@@ -5,6 +5,13 @@ public class Usuarios {
 	private String nome;
 	private String senha;
 	
+	public boolean autenticaSenha(String senha) {
+		if(senha ==this.senha) {
+			return true;
+		}else
+			return false;
+	}
+	
 	// GETs e SETS
 	public int getCodigo() {
 		return codigo;		
