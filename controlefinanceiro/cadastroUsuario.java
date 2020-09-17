@@ -9,7 +9,9 @@ public class cadastroUsuario {
 		teste.setNome("Pablo Vincenzi");
 		teste.setSenha("123456");
 		System.out.println(teste.getCodigo() + teste.getNome()+teste.getSenha());
-		System.out.println(teste.autenticaSenha());
+		boolean aut = teste.autenticaSenha("1234567");
+		System.out.println(aut);
+		
 
 	}
 
