@@ -4,6 +4,11 @@ public abstract class Pessoas {
 	private int codigo;
 	private String nome;
 	private String senha;
+	private int cpf;
+	private String endereco;
+	private char sexo;
+	private String email;
+	private int celular;
 	
 	public boolean autenticaSenha(String senha) {
 		if(senha ==this.senha) {
